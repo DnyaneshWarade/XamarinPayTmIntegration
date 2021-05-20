@@ -42,11 +42,11 @@ namespace AllInOneSampleApp
         public static readonly string PAYTM_WEBSITENAME = "WEBSTAGING";
         public static readonly string REQUEST_TYPE = "Payment";
 
-#if DEBUG
+//#if DEBUG
         public static readonly string PAYTM_LINK = "https://securegw-stage.paytm.in/theia/api/v1/initiateTransaction?mid=";
-#else
-		public static readonly string PAYTM_LINK = "https://securegw.paytm.in/theia/api/v1/initiateTransaction?mid=";
-#endif
+//#else
+//		public static readonly string PAYTM_LINK = "https://securegw.paytm.in/theia/api/v1/initiateTransaction?mid=";
+//#endif
 
     }
 
